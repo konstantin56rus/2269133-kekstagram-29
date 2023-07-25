@@ -1,4 +1,4 @@
-const isFormValidation = (str, num) => str.lenght <= num;
+const isFormValidation = (str, num) => str.length === num;
 
 isFormValidation('bourbon', 7);
 
