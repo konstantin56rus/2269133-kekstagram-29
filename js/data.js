@@ -78,4 +78,3 @@ const getPhotoByUsers = () => ({
 const getAllPhotoByUsers = () => Array.from({length: IDENTIFIER}, getPhotoByUsers);
 
 export {getAllPhotoByUsers};
-getAllPhotoByUsers();
